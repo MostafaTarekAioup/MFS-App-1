@@ -9,7 +9,7 @@ function App() {
   console.log('🚀 ~ App ~ isOpen2222:', isOpen)
   return (
     <>
-      <h1>app 1</h1>
+      <h1>app 1 after build</h1>
       {isOpen && <Hello />}
       <TempComp />
     </>

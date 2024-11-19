@@ -6,7 +6,6 @@ import TempComp from 'appHouse/TempComp'
 
 function App() {
   const [isOpen] = useOpenModule()
-  console.log('🚀 ~ App ~ isOpen2222:', isOpen)
   return (
     <>
       <h1>app 1 after build</h1>

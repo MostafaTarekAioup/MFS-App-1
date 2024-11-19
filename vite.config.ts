@@ -15,7 +15,7 @@ export default defineConfig({
       filename: 'remoteEntry.js',
       remotes: {
         appHouse: isLocal
-          ? 'http://localhost:4173/assets/remoteEntry.js'
+          ? 'http://localhost:5000/assets/remoteEntry.js'
           : 'https://mfe-app-house.vercel.app/assets/remoteEntry.js',
       },
       exposes: {
